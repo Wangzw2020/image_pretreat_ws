@@ -1,0 +1,9 @@
+<!-- -->
+
+<launch>
+	<node pkg="video_capture" type="video_capture_node" name="video_capture_node" output="screen">
+		<param name ="video_file_path" value="/home/wzw/Videos/haze_2/haze.mp4"/>
+	</node>
+
+</launch>
+

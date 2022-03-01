@@ -1,0 +1,10 @@
+<!-- -->
+
+<launch>
+	<node pkg="image_pretreatment" type="image_pretreatment_node" name="image_pretreatment_node" output="screen">
+		<param name ="image_topic" value="/video_image"/>
+		<param name ="mode" value="0"/>
+	</node>
+
+</launch>
+
